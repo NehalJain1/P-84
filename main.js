@@ -30,34 +30,34 @@ function my_keydown(e)
 		{
 		//write a code to check the type of key pressed
 		aplhabetkey();
-		document.getElementById("d1").innerHTML="you pressed alphabet key";
+		document.getElementById("h5").innerHTML="You pressed alphabet key";
 		console.log("alphabet key");
 	}
 	else if((keyPressed >=48 && keyPressed<=57))
 	{
 		//write a code to check the type of key pressed
 		numberkey();
-		document.getElementById("d1").innerHTML="you pressed number key";
+		document.getElementById("h5").innerHTML="You pressed number key";
 		console.log("number key");
 }
 	else if((keyPressed >=37 && keyPressed<=40))
 	{
 		arrowkey();
-		document.getElementById("d1").innerHTML="you pressed number key";
+		document.getElementById("h5").innerHTML="You pressed number key";
 		console.log("number key");
 	}
 	else if((keyPressed >=17 && keyPressed<=18)|| (keyPressed ==27))
 		{
 		//write a code to check the type of key pressed
 		specialkey();
-		document.getElementById("d1").innerHTML="you pressed special key";
+		document.getElementById("h5").innerHTML="You pressed special key";
 		console.log("special");
 	}
 	else
 		{
 		//write a code to check the type of key pressed
 		otherkey();
-		document.getElementById("d1").innerHTML="you pressed other key";
+		document.getElementById("h5").innerHTML="You pressed other key";
 		console.log("special key");
 	}
 }
